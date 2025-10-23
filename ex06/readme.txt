@@ -29,10 +29,11 @@ $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-l
   4) module
 
       module: {
-        rules:[{
+        rules:[{...}, {...}, {
           test: /\.(png|gif|jp?eg|svg|ico|tif?f|bmp)/i,
           type: 'asset/resource'
         }]
+      }
 
 
 4. Build(Bundling)

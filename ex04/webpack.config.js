@@ -17,6 +17,10 @@ module.exports = {
         host: '0.0.0.0',
         port: 9090,
         liveReload: true,
+        static: {
+            directory: path.resolve('public'),
+            watch: false
+        },
         compress: true,
         hot: false
     }        
